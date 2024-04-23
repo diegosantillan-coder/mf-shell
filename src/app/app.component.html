@@ -2,9 +2,7 @@
   <h1 routerLink="/">Shell</h1>
   <div class="cart" routerLink="/payment">
     <span class="material-icons"> shopping_cart </span>
-    <!-- <span class="cart__count">
-      {{ commonsLibService.channelPayment$ | async }}
-    </span> -->
+    <span class="cart__count"> {{ count }} </span>
   </div>
 </div>
 <router-outlet></router-outlet>
